@@ -14,6 +14,7 @@
 		6DB59EB41FB48FBE004503F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB59EB21FB48FBE004503F3 /* LaunchScreen.storyboard */; };
 		6DB59EBF1FB48FBE004503F3 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB59EBE1FB48FBE004503F3 /* HelloWorldTests.swift */; };
 		6DB59ECA1FB48FBE004503F3 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB59EC91FB48FBE004503F3 /* HelloWorldUITests.swift */; };
+		6DB713B81FBCDAE500031D89 /* Audios in Resources */ = {isa = PBXBuildFile; fileRef = 6DB713B71FBCDAE500031D89 /* Audios */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6DB59EC51FB48FBE004503F3 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB59EC91FB48FBE004503F3 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		6DB59ECB1FB48FBE004503F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB713B71FBCDAE500031D89 /* Audios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audios; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		6DB59EA81FB48FBE004503F3 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				6DB713B71FBCDAE500031D89 /* Audios */,
 				6DB59EA91FB48FBE004503F3 /* AppDelegate.swift */,
 				6DB59EAB1FB48FBE004503F3 /* ViewController.swift */,
 				6DB59EAD1FB48FBE004503F3 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 				6DB59EB41FB48FBE004503F3 /* LaunchScreen.storyboard in Resources */,
 				6DB59EB11FB48FBE004503F3 /* Assets.xcassets in Resources */,
 				6DB59EAF1FB48FBE004503F3 /* Main.storyboard in Resources */,
+				6DB713B81FBCDAE500031D89 /* Audios in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MagicUnix.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MagicUnix.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
